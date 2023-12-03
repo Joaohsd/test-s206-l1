@@ -67,10 +67,7 @@ describe('Test Scenario: Testing Banking site example from globalsqa.', () => {
 
     // when
     cy.createCustomer(userInfo)
-    cy.get('[ng-class="btnClass2"]').click()
-    cy.get('#userSelect').select(userInfo[0]+ ' ' + userInfo[1])
-    cy.get('#currency').select(currency)
-    cy.get('form.ng-dirty > button').click()
+    cy.openAccount(userInfo, currency)
     cy.get('[ng-class="btnClass3"]').click()
 
     // then

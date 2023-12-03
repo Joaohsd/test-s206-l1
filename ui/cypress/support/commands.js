@@ -46,3 +46,10 @@ Cypress.Commands.add('createCustomer', (userInfo) => {
     cy.get(':nth-child(3) > .form-control').type(userInfo[2])
     cy.get('form.ng-dirty > .btn').click()
 })
+
+Cypress.Commands.add('openAccount', (userInfo, currency) => {
+    cy.get('[ng-class="btnClass2"]').click()
+    cy.get('#userSelect').select(userInfo[0]+ ' ' + userInfo[1])
+    cy.get('#currency').select(currency)
+    cy.get('form.ng-dirty > button').click()
+})

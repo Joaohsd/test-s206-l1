@@ -1,4 +1,8 @@
 # UI Tests
-ui/cypress/reports/
-ui/node_modules/
-ui/package-lock.json
+test/ui/cypress/reports/
+test/ui/node_modules/
+test/ui/package-lock.json
+
+# API Tests
+work/work_s206/target/
+work/work_s206/.idea/

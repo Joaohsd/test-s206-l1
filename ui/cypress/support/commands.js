@@ -45,5 +45,4 @@ Cypress.Commands.add('createCustomer', (userInfo) => {
     cy.get(':nth-child(2) > .form-control').type(userInfo[1])
     cy.get(':nth-child(3) > .form-control').type(userInfo[2])
     cy.get('form.ng-dirty > .btn').click()
-    cy.get('[ng-class="btnClass3"]').click()
 })

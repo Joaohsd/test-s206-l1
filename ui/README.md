@@ -7,7 +7,7 @@ The goal of this project is testing Banking example site. In order to do that, W
 *   Add new customer;
 *   Delete new customer created;
 *   Open account for new customer created;
-*   Withdraw without money available;
+*   Withdraw without money available (**Failure case, but test is passing**);
 
 ## **Pre-requirements**
 

@@ -37,3 +37,13 @@ Cypress.Commands.add('loginAsManager', () => {
     cy.visit(baseURL)
     cy.get(':nth-child(3) > .btn').click()
 })
+
+Cypress.Commands.add('createCustomer', (userInfo) => {
+    cy.loginAsManager()
+    cy.get('[ng-class="btnClass1"]').click()
+    cy.get(':nth-child(1) > .form-control').type(userInfo[0])
+    cy.get(':nth-child(2) > .form-control').type(userInfo[1])
+    cy.get(':nth-child(3) > .form-control').type(userInfo[2])
+    cy.get('form.ng-dirty > .btn').click()
+    cy.get('[ng-class="btnClass3"]').click()
+})

@@ -4,17 +4,17 @@ The goal of this project is testing Cars API. In order to do that, it is necessa
 
 *   **Cars:**
 
-    *   Testing **GET** all cars;
-    *   Testing **GET** one car with **valid** id;
-    *   Testing **GET** one car with **invalid** id;
-    *   Testing **POST** one **valid** car;
-    *   Testing **POST** one **invalid** car;
+    *   Testing **GET** all cars: Status **200** as response;
+    *   Testing **GET** one car with **valid** id: Status **200** as response;
+    *   Testing **GET** one car with **invalid** id: Status **404** as response;
+    *   Testing **POST** one **valid** car: Status **201** as response;
+    *   Testing **POST** one **invalid** car: Status **400** as response and message verification;
 
 *   **Parking-lots:**
 
-    *   Testing **GET** all parking-lots;
-    *   Testing **GET** one parking-lots with **valid** id;
-    *   Testing **GET** one parking-lots with **invalid** id;
+    *   Testing **GET** all parking-lots: Status **200** as response;
+    *   Testing **GET** one parking-lots with **valid** id: Status **200** as response;
+    *   Testing **GET** one parking-lots with **invalid** id: Status **404** as response;
 
 ## **Pre-requirements**
 

@@ -1,13 +1,13 @@
 # **UI Test with Cypress and Banking site from globalsqa**
 
-The goal of this project is testing Banking example site. In order to do that, We've created 8 tests cases:
+The goal of this project is testing <a href="https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login">Banking example site</a>. In order to do that, I've created 8 tests cases:
 
 *   Log in as CUSTOMER - Harry Potter;
 *   Log in as MANAGER;
 *   Add new customer;
 *   Delete new customer created;
 *   Open account for new customer created;
-*   Withdraw without money available (**Failure case, but test is passing**);
+*   Withdrawal without cash available (**Failure case, but test is passing**);
 
 ## **Pre-requirements**
 

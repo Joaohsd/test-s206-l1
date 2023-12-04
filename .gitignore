@@ -4,5 +4,8 @@ test/ui/node_modules/
 test/ui/package-lock.json
 
 # API Tests
+test/api/test_s206/target/
+test/api/test_s206/.idea/
+
 work/work_s206/target/
 work/work_s206/.idea/

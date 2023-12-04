@@ -66,3 +66,9 @@ Feature: Testing Resources from Cars API
     Then status 200
     And match $.id == 'f15cb208-1696-497e-abec-05bb4a2b639d'
     And match $.name == 'Estacionamento Inatel'
+
+  Scenario: Testing GET one parking-lots with invalid id
+    Given url base_url
+    And path '/parking-lots/unknown'
+    When method get
+    Then status 404
